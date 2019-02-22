@@ -39,7 +39,6 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'pry-rails'
   gem 'pry-byebug'
-  gem 'pry-nav'
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'capybara'
@@ -55,3 +54,5 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
+
+gem "slim-rails", "~> 3.2"
