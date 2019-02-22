@@ -2,8 +2,8 @@
 
 <% @products.each do |product| %>
   <div id="product-<%= product.id %>">
-  <p><%= product.name %></p>
-  <%= truncate product.description %>
+  <p><b><%= product.name %></b><br>
+  <%= truncate product.description %></p>
   </div>
   
 <% end %>
