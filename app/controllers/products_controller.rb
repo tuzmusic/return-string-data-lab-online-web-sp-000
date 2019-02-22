@@ -4,10 +4,10 @@ class ProductsController < ApplicationController
   end
 
   def new
-    
   end
 
   def create
-    raise params.inspect
+    Product.create(name: params[:name], description: params[:description])
+    redirect_to products_path
   end
 end
